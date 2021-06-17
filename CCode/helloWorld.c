@@ -13,14 +13,14 @@ int sub(int x, int y)
 	return x-y;
 }
 
-void greeting(char name[]){
-
-	printf("Hey %s",name);
+void greeting()
+{
+	printtf("Hey");
 }
 int main()
 {
 	char name[] = "Alisga"
-	greeting(name);
+	greeting();
 
 	printf("Hello World!");
 	printf("Awesome World");
