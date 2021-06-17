@@ -12,8 +12,15 @@ int sub(int x, int y)
 {
 	return x-y;
 }
+
+void greeting(char name[]){
+
+	printf("Hey %s",name);
+}
 int main()
 {
+	char name[] = "Alisga"
+	greeting(name);
 
 	printf("Hello World!");
 	printf("Awesome World");
