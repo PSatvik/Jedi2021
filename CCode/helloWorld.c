@@ -11,6 +11,11 @@ int sub(int x, int y)
 {
 	return x-y;
 }
+
+void greeting()
+{
+	printtf("Hey");
+}
 int main()
 {
 
